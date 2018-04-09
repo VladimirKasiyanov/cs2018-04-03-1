@@ -1,5 +1,7 @@
 package by.it.KasiyanovVladimir.lesson03;
 
+import java.util.Scanner;
+
 /*
 Lesson 03. Task A1. Калькулятор.
 Напишите программу, которая считывает с клавиатуры два целых числа a и b
@@ -33,6 +35,28 @@ Scanner sc=new Scanner(System.in);
 
  */
 
+import com.sun.org.apache.xpath.internal.SourceTree;
+
+import java.util.Scanner;
+
 class TaskA1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int i = scanner.nextInt();
+        int j = scanner.nextInt();
+        int sum = i + j;
+        int sub = i - j;
+        int mul = i * j;
+        int div = i / j;
+        int mod = i%j;
+        System.out.println(sum + " " + sub + " " + mul + " " + div + " " + mod);
+
+        double dsum = i + j;
+        double dsub = i - j;
+        double dmul = i * j;
+        double ddiv = ((double)i / j);
+        double dmod = ((double)i % j);
+        System.out.println(dsum + " " + dsub + " " + dmul + " " + ddiv + " " + dmod);
+    }
 
 }

@@ -23,20 +23,11 @@ class TaskC2 {
 
         System.out.println("DEC:" + number1 + "+" + number2 + "=" + (number1 + number2));
 
-        String BIN1 = Integer.toBinaryString(number1);
-        String BIN2 = Integer.toBinaryString(number2);
-        String BIN = Integer.toBinaryString(number1 + number2);
-        System.out.println("BIN:" + BIN1 + "+" + BIN2 + "=" + BIN);
+        System.out.println("BIN:" + Integer.toBinaryString(number1) + "+" + Integer.toBinaryString(number2) + "=" + Integer.toBinaryString(number1 + number2));
 
-        String HEX1 = Integer.toHexString(number1);
-        String HEX2 = Integer.toHexString(number2);
-        String HEX = Integer.toHexString(number1 + number2);
-        System.out.println("HEX:" + HEX1 + "+" + HEX2 + "=" + HEX);
+        System.out.println("HEX:" + Integer.toHexString(number1) + "+" + Integer.toHexString(number2) + "=" + Integer.toHexString(number1 + number2));
 
-        String Octal1 = Integer.toOctalString(number1);
-        String Octal2 = Integer.toOctalString(number2);
-        String Octal = Integer.toOctalString(number1 + number2);
-        System.out.println("OCT:" + Octal1 + "+" + Octal2 + "=" + Octal);
+        System.out.println("OCT:" + Integer.toOctalString(number1) + "+" + Integer.toOctalString(number2) + "=" + Integer.toOctalString(number1 + number2));
 
 
     }
