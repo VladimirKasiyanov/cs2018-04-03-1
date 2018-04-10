@@ -1,4 +1,5 @@
 package by.it.KasiyanovVladimir.lesson02;
+import java.util.Scanner;
 
 /*
 Выводим квадрат числа
@@ -17,4 +18,9 @@ Scanner sc=new Scanner(System.in);
  */
 
 class TaskB1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int number = scan.nextInt();
+        System.out.println(number*number);
+    }
 }
